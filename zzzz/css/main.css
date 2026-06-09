@@ -1,112 +1,69 @@
-   *{
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
+    background: #f5f5f5;
 }
 
 .container{
-    width: 100%;
-    max-width: 1400px;
     margin: 0 auto;
-    padding: 20px;
+    max-width: 400px;
+    background: #fff;
+    padding: 30px;
+    margin-top: 50px;
 }
 
-.header .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container form{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
 }
 
-.header .container .logo img{
-    width: 100px;
-    height: auto;
-    cursor: pointer;
+.container form h1{
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.header .container ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    list-style: none;
-}
-
-.header .container ul a{
-    text-decoration: none;
-    color: #333;
-    font-size: 18px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.header .container ul a:hover{
-    color: #007BFF;
-}
-
-.header .container .buttons button{
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.header .container .buttons button:hover{
-    background-color: #000000;
-
-}
-
-/* Form */
-.form{
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-}
-
-.form h2{
+.container form input{
     margin-bottom: 20px;
-    color: #333;
-}
-
-.form .input-group{
-    margin-bottom: 15px;
-}
-
-.form .input-group label{
-    display: block;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.form .input-group input{
-    width: 100%;
     padding: 10px;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.form .input-group input:focus{
-    border-color: #007BFF;
     outline: none;
 }
 
-.form .submit-btn{
-    background-color: #007BFF;
+.container form .form-link{
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #018407;
+    text-decoration: none;
+}
+
+.container form button{
+    width: 100%;
+    padding: 10px;
+    background: #018407;
     color: #fff;
-    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: all 0.3s ease;
+    margin-bottom: 20px;
 }
 
-.form .submit-btn:hover{
-    background-color: #000000;
+.container form p{
+    text-align: center;
+    color: #333;
+}
+
+.container form a{
+    text-align: center;
+    color: #018407;
+    text-decoration: none;
+    text-decoration: none;
 }
